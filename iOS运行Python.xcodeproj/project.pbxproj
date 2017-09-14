@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0652B41F579BC30008D4EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0652B31F579BC30008D4EE /* main.m */; };
+		9A0652B71F579BC30008D4EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0652B61F579BC30008D4EE /* AppDelegate.m */; };
+		9A0652BA1F579BC30008D4EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0652B91F579BC30008D4EE /* ViewController.m */; };
+		9A0652BD1F579BC30008D4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0652BB1F579BC30008D4EE /* Main.storyboard */; };
+		9A0652BF1F579BC30008D4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0652BE1F579BC30008D4EE /* Assets.xcassets */; };
+		9A0652C21F579BC30008D4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0652C01F579BC30008D4EE /* LaunchScreen.storyboard */; };
+		9A0652CD1F579BC30008D4EE /* iOS__PythonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0652CC1F579BC30008D4EE /* iOS__PythonTests.m */; };
+		9A0652D81F579BC30008D4EE /* iOS__PythonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0652D71F579BC30008D4EE /* iOS__PythonUITests.m */; };
+		9A0652EC1F57AA010008D4EE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652EB1F57AA010008D4EE /* libsqlite3.tbd */; };
+		9A0652EE1F57AA2B0008D4EE /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652ED1F57AA2B0008D4EE /* libbz2.tbd */; };
+		9A0652F01F57AAAD0008D4EE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652EF1F57AAAD0008D4EE /* libz.tbd */; };
+		9A0652F21F57ADD00008D4EE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652F11F57ADD00008D4EE /* libxml2.tbd */; };
+		9A0652F41F57ADDB0008D4EE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652F31F57ADDB0008D4EE /* libc++.tbd */; };
+		9A0652F61F57ADE50008D4EE /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0652F51F57ADE50008D4EE /* libstdc++.tbd */; };
+		9A0652F81F57BDCE0008D4EE /* PythonEnvironment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A0652F71F57BDCE0008D4EE /* PythonEnvironment.bundle */; };
+		9A44301F1F593FAC006072C5 /* YXPythonInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A44301E1F593FAC006072C5 /* YXPythonInterpreter.m */; };
+		9A48BFA81F6633FA000FB2DF /* Pybridge.py in Resources */ = {isa = PBXBuildFile; fileRef = 9A48BFA71F6633FA000FB2DF /* Pybridge.py */; };
+		9A48BFAB1F663659000FB2DF /* NSString+YXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48BFAA1F663659000FB2DF /* NSString+YXAdd.m */; };
+		9A48BFB21F664F78000FB2DF /* YXPythonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48BFB01F664F78000FB2DF /* YXPythonTestViewController.m */; };
+		9A48BFB31F664F78000FB2DF /* YXPythonTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A48BFB11F664F78000FB2DF /* YXPythonTestViewController.xib */; };
+		9A49C2411F69135800D49D5C /* icbc.py in Resources */ = {isa = PBXBuildFile; fileRef = 9A49C2401F69135800D49D5C /* icbc.py */; };
+		9A49C2441F69192500D49D5C /* YXPyModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C2431F69192500D49D5C /* YXPyModuleManager.m */; };
+		9A49C2461F6A133F00D49D5C /* yj.py in Resources */ = {isa = PBXBuildFile; fileRef = 9A49C2451F6A133F00D49D5C /* yj.py */; };
+		9A619AEA1F6775B10009A9C8 /* YXPythonExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A619AE91F6775B10009A9C8 /* YXPythonExecute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0652C91F579BC30008D4EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0652A71F579BC30008D4EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0652AE1F579BC30008D4EE;
+			remoteInfo = "iOS运行Python";
+		};
+		9A0652D41F579BC30008D4EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0652A71F579BC30008D4EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0652AE1F579BC30008D4EE;
+			remoteInfo = "iOS运行Python";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0652AF1F579BC30008D4EE /* iOS运行Python.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS运行Python.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0652B31F579BC30008D4EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0652B51F579BC30008D4EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0652B61F579BC30008D4EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A0652B81F579BC30008D4EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A0652B91F579BC30008D4EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A0652BC1F579BC30008D4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0652BE1F579BC30008D4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0652C11F579BC30008D4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A0652C31F579BC30008D4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0652C81F579BC30008D4EE /* iOS运行PythonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS运行PythonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0652CC1F579BC30008D4EE /* iOS__PythonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS__PythonTests.m; sourceTree = "<group>"; };
+		9A0652CE1F579BC30008D4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0652D31F579BC30008D4EE /* iOS运行PythonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS运行PythonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0652D71F579BC30008D4EE /* iOS__PythonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS__PythonUITests.m; sourceTree = "<group>"; };
+		9A0652D91F579BC30008D4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0652EB1F57AA010008D4EE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9A0652ED1F57AA2B0008D4EE /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		9A0652EF1F57AAAD0008D4EE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A0652F11F57ADD00008D4EE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9A0652F31F57ADDB0008D4EE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9A0652F51F57ADE50008D4EE /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9A0652F71F57BDCE0008D4EE /* PythonEnvironment.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PythonEnvironment.bundle; sourceTree = "<group>"; };
+		9A44301D1F593FAC006072C5 /* YXPythonInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPythonInterpreter.h; sourceTree = "<group>"; };
+		9A44301E1F593FAC006072C5 /* YXPythonInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPythonInterpreter.m; sourceTree = "<group>"; };
+		9A48BFA71F6633FA000FB2DF /* Pybridge.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Pybridge.py; sourceTree = "<group>"; };
+		9A48BFA91F663659000FB2DF /* NSString+YXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YXAdd.h"; sourceTree = "<group>"; };
+		9A48BFAA1F663659000FB2DF /* NSString+YXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YXAdd.m"; sourceTree = "<group>"; };
+		9A48BFAF1F664F78000FB2DF /* YXPythonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPythonTestViewController.h; sourceTree = "<group>"; };
+		9A48BFB01F664F78000FB2DF /* YXPythonTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPythonTestViewController.m; sourceTree = "<group>"; };
+		9A48BFB11F664F78000FB2DF /* YXPythonTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXPythonTestViewController.xib; sourceTree = "<group>"; };
+		9A49C2401F69135800D49D5C /* icbc.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = icbc.py; sourceTree = "<group>"; };
+		9A49C2421F69192500D49D5C /* YXPyModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPyModuleManager.h; sourceTree = "<group>"; };
+		9A49C2431F69192500D49D5C /* YXPyModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPyModuleManager.m; sourceTree = "<group>"; };
+		9A49C2451F6A133F00D49D5C /* yj.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = yj.py; sourceTree = "<group>"; };
+		9A619AE81F6775B10009A9C8 /* YXPythonExecute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPythonExecute.h; sourceTree = "<group>"; };
+		9A619AE91F6775B10009A9C8 /* YXPythonExecute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPythonExecute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0652AC1F579BC30008D4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0652F61F57ADE50008D4EE /* libstdc++.tbd in Frameworks */,
+				9A0652F41F57ADDB0008D4EE /* libc++.tbd in Frameworks */,
+				9A0652F21F57ADD00008D4EE /* libxml2.tbd in Frameworks */,
+				9A0652F01F57AAAD0008D4EE /* libz.tbd in Frameworks */,
+				9A0652EE1F57AA2B0008D4EE /* libbz2.tbd in Frameworks */,
+				9A0652EC1F57AA010008D4EE /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652C51F579BC30008D4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652D01F579BC30008D4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0652A61F579BC30008D4EE = {
+			isa = PBXGroup;
+			children = (
+				9A0652B11F579BC30008D4EE /* iOS运行Python */,
+				9A0652CB1F579BC30008D4EE /* iOS运行PythonTests */,
+				9A0652D61F579BC30008D4EE /* iOS运行PythonUITests */,
+				9A0652B01F579BC30008D4EE /* Products */,
+				9A0652EA1F57AA000008D4EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0652B01F579BC30008D4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0652AF1F579BC30008D4EE /* iOS运行Python.app */,
+				9A0652C81F579BC30008D4EE /* iOS运行PythonTests.xctest */,
+				9A0652D31F579BC30008D4EE /* iOS运行PythonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0652B11F579BC30008D4EE /* iOS运行Python */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C2451F6A133F00D49D5C /* yj.py */,
+				9A49C2401F69135800D49D5C /* icbc.py */,
+				9A48BFA71F6633FA000FB2DF /* Pybridge.py */,
+				9A0652F71F57BDCE0008D4EE /* PythonEnvironment.bundle */,
+				9A0652E51F579C670008D4EE /* Python-3.4.2-iOS-support.b5 */,
+				9A0652B51F579BC30008D4EE /* AppDelegate.h */,
+				9A0652B61F579BC30008D4EE /* AppDelegate.m */,
+				9A0652B81F579BC30008D4EE /* ViewController.h */,
+				9A0652B91F579BC30008D4EE /* ViewController.m */,
+				9A44301D1F593FAC006072C5 /* YXPythonInterpreter.h */,
+				9A44301E1F593FAC006072C5 /* YXPythonInterpreter.m */,
+				9A619AE81F6775B10009A9C8 /* YXPythonExecute.h */,
+				9A619AE91F6775B10009A9C8 /* YXPythonExecute.m */,
+				9A49C2421F69192500D49D5C /* YXPyModuleManager.h */,
+				9A49C2431F69192500D49D5C /* YXPyModuleManager.m */,
+				9A48BFA91F663659000FB2DF /* NSString+YXAdd.h */,
+				9A48BFAA1F663659000FB2DF /* NSString+YXAdd.m */,
+				9A48BFAF1F664F78000FB2DF /* YXPythonTestViewController.h */,
+				9A48BFB01F664F78000FB2DF /* YXPythonTestViewController.m */,
+				9A48BFB11F664F78000FB2DF /* YXPythonTestViewController.xib */,
+				9A0652BB1F579BC30008D4EE /* Main.storyboard */,
+				9A0652BE1F579BC30008D4EE /* Assets.xcassets */,
+				9A0652C01F579BC30008D4EE /* LaunchScreen.storyboard */,
+				9A0652C31F579BC30008D4EE /* Info.plist */,
+				9A0652B21F579BC30008D4EE /* Supporting Files */,
+			);
+			path = "iOS运行Python";
+			sourceTree = "<group>";
+		};
+		9A0652B21F579BC30008D4EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0652B31F579BC30008D4EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0652CB1F579BC30008D4EE /* iOS运行PythonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0652CC1F579BC30008D4EE /* iOS__PythonTests.m */,
+				9A0652CE1F579BC30008D4EE /* Info.plist */,
+			);
+			path = "iOS运行PythonTests";
+			sourceTree = "<group>";
+		};
+		9A0652D61F579BC30008D4EE /* iOS运行PythonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0652D71F579BC30008D4EE /* iOS__PythonUITests.m */,
+				9A0652D91F579BC30008D4EE /* Info.plist */,
+			);
+			path = "iOS运行PythonUITests";
+			sourceTree = "<group>";
+		};
+		9A0652E51F579C670008D4EE /* Python-3.4.2-iOS-support.b5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Python-3.4.2-iOS-support.b5";
+			sourceTree = "<group>";
+		};
+		9A0652EA1F57AA000008D4EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0652F51F57ADE50008D4EE /* libstdc++.tbd */,
+				9A0652F31F57ADDB0008D4EE /* libc++.tbd */,
+				9A0652F11F57ADD00008D4EE /* libxml2.tbd */,
+				9A0652EF1F57AAAD0008D4EE /* libz.tbd */,
+				9A0652ED1F57AA2B0008D4EE /* libbz2.tbd */,
+				9A0652EB1F57AA010008D4EE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0652AE1F579BC30008D4EE /* iOS运行Python */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0652DC1F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行Python" */;
+			buildPhases = (
+				9A0652AB1F579BC30008D4EE /* Sources */,
+				9A0652AC1F579BC30008D4EE /* Frameworks */,
+				9A0652AD1F579BC30008D4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS运行Python";
+			productName = "iOS运行Python";
+			productReference = 9A0652AF1F579BC30008D4EE /* iOS运行Python.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0652C71F579BC30008D4EE /* iOS运行PythonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0652DF1F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行PythonTests" */;
+			buildPhases = (
+				9A0652C41F579BC30008D4EE /* Sources */,
+				9A0652C51F579BC30008D4EE /* Frameworks */,
+				9A0652C61F579BC30008D4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0652CA1F579BC30008D4EE /* PBXTargetDependency */,
+			);
+			name = "iOS运行PythonTests";
+			productName = "iOS运行PythonTests";
+			productReference = 9A0652C81F579BC30008D4EE /* iOS运行PythonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A0652D21F579BC30008D4EE /* iOS运行PythonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0652E21F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行PythonUITests" */;
+			buildPhases = (
+				9A0652CF1F579BC30008D4EE /* Sources */,
+				9A0652D01F579BC30008D4EE /* Frameworks */,
+				9A0652D11F579BC30008D4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0652D51F579BC30008D4EE /* PBXTargetDependency */,
+			);
+			name = "iOS运行PythonUITests";
+			productName = "iOS运行PythonUITests";
+			productReference = 9A0652D31F579BC30008D4EE /* iOS运行PythonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0652A71F579BC30008D4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					9A0652AE1F579BC30008D4EE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					9A0652C71F579BC30008D4EE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A0652AE1F579BC30008D4EE;
+					};
+					9A0652D21F579BC30008D4EE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A0652AE1F579BC30008D4EE;
+					};
+				};
+			};
+			buildConfigurationList = 9A0652AA1F579BC30008D4EE /* Build configuration list for PBXProject "iOS运行Python" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0652A61F579BC30008D4EE;
+			productRefGroup = 9A0652B01F579BC30008D4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0652AE1F579BC30008D4EE /* iOS运行Python */,
+				9A0652C71F579BC30008D4EE /* iOS运行PythonTests */,
+				9A0652D21F579BC30008D4EE /* iOS运行PythonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0652AD1F579BC30008D4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0652C21F579BC30008D4EE /* LaunchScreen.storyboard in Resources */,
+				9A0652BF1F579BC30008D4EE /* Assets.xcassets in Resources */,
+				9A0652BD1F579BC30008D4EE /* Main.storyboard in Resources */,
+				9A48BFA81F6633FA000FB2DF /* Pybridge.py in Resources */,
+				9A49C2411F69135800D49D5C /* icbc.py in Resources */,
+				9A0652F81F57BDCE0008D4EE /* PythonEnvironment.bundle in Resources */,
+				9A48BFB31F664F78000FB2DF /* YXPythonTestViewController.xib in Resources */,
+				9A49C2461F6A133F00D49D5C /* yj.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652C61F579BC30008D4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652D11F579BC30008D4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0652AB1F579BC30008D4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0652BA1F579BC30008D4EE /* ViewController.m in Sources */,
+				9A49C2441F69192500D49D5C /* YXPyModuleManager.m in Sources */,
+				9A619AEA1F6775B10009A9C8 /* YXPythonExecute.m in Sources */,
+				9A48BFB21F664F78000FB2DF /* YXPythonTestViewController.m in Sources */,
+				9A0652B71F579BC30008D4EE /* AppDelegate.m in Sources */,
+				9A0652B41F579BC30008D4EE /* main.m in Sources */,
+				9A44301F1F593FAC006072C5 /* YXPythonInterpreter.m in Sources */,
+				9A48BFAB1F663659000FB2DF /* NSString+YXAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652C41F579BC30008D4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0652CD1F579BC30008D4EE /* iOS__PythonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0652CF1F579BC30008D4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0652D81F579BC30008D4EE /* iOS__PythonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0652CA1F579BC30008D4EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0652AE1F579BC30008D4EE /* iOS运行Python */;
+			targetProxy = 9A0652C91F579BC30008D4EE /* PBXContainerItemProxy */;
+		};
+		9A0652D51F579BC30008D4EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0652AE1F579BC30008D4EE /* iOS运行Python */;
+			targetProxy = 9A0652D41F579BC30008D4EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0652BB1F579BC30008D4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0652BC1F579BC30008D4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0652C01F579BC30008D4EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0652C11F579BC30008D4EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0652DA1F579BC30008D4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A0652DB1F579BC30008D4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0652DD1F579BC30008D4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS运行Python/Python-3.4.2-iOS-support.b5",
+				);
+				INFOPLIST_FILE = "iOS运行Python/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--Python";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0652DE1F579BC30008D4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS运行Python/Python-3.4.2-iOS-support.b5",
+				);
+				INFOPLIST_FILE = "iOS运行Python/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--Python";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0652E01F579BC30008D4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS运行PythonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--PythonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS运行Python.app/iOS运行Python";
+			};
+			name = Debug;
+		};
+		9A0652E11F579BC30008D4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS运行PythonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--PythonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS运行Python.app/iOS运行Python";
+			};
+			name = Release;
+		};
+		9A0652E31F579BC30008D4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS运行PythonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--PythonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS运行Python";
+			};
+			name = Debug;
+		};
+		9A0652E41F579BC30008D4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS运行PythonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yx.iOS--PythonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS运行Python";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0652AA1F579BC30008D4EE /* Build configuration list for PBXProject "iOS运行Python" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0652DA1F579BC30008D4EE /* Debug */,
+				9A0652DB1F579BC30008D4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0652DC1F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行Python" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0652DD1F579BC30008D4EE /* Debug */,
+				9A0652DE1F579BC30008D4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0652DF1F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行PythonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0652E01F579BC30008D4EE /* Debug */,
+				9A0652E11F579BC30008D4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0652E21F579BC30008D4EE /* Build configuration list for PBXNativeTarget "iOS运行PythonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0652E31F579BC30008D4EE /* Debug */,
+				9A0652E41F579BC30008D4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0652A71F579BC30008D4EE /* Project object */;
+}
